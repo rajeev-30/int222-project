@@ -32,6 +32,10 @@ mongoose.connect(
   }
 );
 
+app.get("/", (req, res) => {
+  res.send(`Server started`);
+})
+
 httpServer.listen(process.env.PORT || 4000, () => {
   console.log("Listening");
 });
