@@ -85,7 +85,7 @@ const Profile = (props) => {
           </HorizontalStack>
         </Stack>
       ) : (
-        <Loading label="Loading profile" />
+        <Loading label="Loading profileeee" />
       )}
     </Card>
   );

@@ -91,7 +91,7 @@ const Navbar = () => {
             color={theme.palette.primary.main}
           >
             {/* <Link to="/" color="inherit"> */}
-              Anontalk
+              AnonTalk
             {/* </Link> */}
           </Typography>
         </HorizontalStack>

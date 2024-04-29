@@ -6,18 +6,18 @@ import Copyright from "./Copyright";
 const Footer = () => {
   return (
     <Box pb={3}>
-      <Card>
+      {/* <Card>
         <Typography variant="subtitle1">
           Don't forget to star the{" "}
           <a
-            href="https://github.com/ihtasham42/social-media-app"
+            href=""
             target="_blank"
           >
             Repo
           </a>
           ! ⭐
         </Typography>
-      </Card>
+      </Card> */}
     </Box>
   );
 };
