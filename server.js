@@ -17,7 +17,7 @@ dotenv.config();
 const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: ["http://localhost:3000", "https://int222-project.vercel.app"],
+    origin: ["http://localhost:3000", "https://anontalk.vercel.app"],
   },
 });
 
